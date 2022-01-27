@@ -51,8 +51,8 @@ function game() {
     ctx.fillStyle = "red";
     ctx.fillRect(ax * gs, ay * gs, gs - 2, gs - 2);
 
-    let snakeLength = trail.length;
-    document.getElementById("snakeLength").innerHTML = "Длина снэйка: " + snakeLength;
+    let snakesLength = trail.length;
+    document.getElementById("snakesLength").innerHTML = "Snakes length is: " + snakesLength;
 }
 
 function keyPush(evt) {
